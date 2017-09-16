@@ -5,6 +5,7 @@
 /target/
 /MANIFEST.MF
 
+.metadata/*
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
