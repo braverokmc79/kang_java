@@ -16,9 +16,7 @@ public class OperatorExam3 {
 		
 		System.out.println(a); //6
 	}
-	
-	
-	
+
 }
 
 
