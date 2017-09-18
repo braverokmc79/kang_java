@@ -19,10 +19,9 @@ public class OperatorExam5 {
 			System.out.println("실패");
 		}
 		
-		System.out.println(b1 ^ b3);//
-		System.out.println(b1 ^ b2);
-		System.out.println(!b1);
-		
+		System.out.println(b1 ^ b3);// true false => false
+		System.out.println(b1 ^ b2); // true  true => true
+		System.out.println(!b1); // false 	
 	}
 	
 }
