@@ -1,3 +1,4 @@
+package part6;
 
 public class EnumExam {
 	public static final String MALE="MALE";

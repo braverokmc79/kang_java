@@ -1,3 +1,4 @@
+package part6;
 
 public class MyClass2 {
 	
