@@ -1,5 +1,4 @@
-import part7.Bus;
-
+package part8;
 
 public class BusExam {
 	public static void main(String[] args) {

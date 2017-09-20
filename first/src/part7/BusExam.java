@@ -1,5 +1,7 @@
 package part7;
 
+import part8.Bus;
+
 public class BusExam {
 	
 	public static void main(String[] args) {

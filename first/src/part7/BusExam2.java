@@ -1,5 +1,6 @@
-import part7.Bus;
-import part7.Car;
+package part7;
+
+import part8.Bus;
 
 //클래스 변환 강의
 public class BusExam2 {

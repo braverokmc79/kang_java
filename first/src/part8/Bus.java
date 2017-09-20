@@ -1,4 +1,6 @@
-package part7;
+package part8;
+
+import part7.Car;
 
 public class Bus extends Car{
 
