@@ -6,7 +6,6 @@ import java.io.FileOutputStream;
 public class ByteExam1 {
 	
 	public static void main(String[] args) {
-		long start =System.currentTimeMillis();
 		FileInputStream fis =null;
 		FileOutputStream fos =null;
 		try{
@@ -17,7 +16,8 @@ public class ByteExam1 {
 			while((readData=fis.read())!=-1){
 				fos.write(readData);
 			}
-			
+			//fos.flush();
+			System.out.println("출력 되었습니다.");
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
@@ -28,9 +28,6 @@ public class ByteExam1 {
 				e.printStackTrace();
 			}
 		}
-		long end=System.currentTimeMillis();
-		System.out.println("1byte로 읽어드린  경우");
-		System.out.println(end-start);
 	}
 	
 }
