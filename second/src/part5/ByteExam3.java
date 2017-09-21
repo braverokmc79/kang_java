@@ -10,8 +10,10 @@ public class ByteExam3 {
 			DataOutputStream out =new DataOutputStream(new FileOutputStream("data2.txt"));	
 		){
 		  out.writeInt(100);
-		  out.writeBoolean(true);
-		  out.writeDouble(50.5);
+		  out.writeInt(100);
+		  out.writeInt(100);
+//		  out.writeBoolean(true);
+//		  out.writeDouble(50.5);
 		}catch(Exception e){
 			e.printStackTrace();
 		}
